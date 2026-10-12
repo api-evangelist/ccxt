@@ -1,0 +1,114 @@
+generated: '2026-10-13'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 9
+  own: 5
+  other_domain: 1
+  platform: 3
+  roles:
+  - api
+  - docs
+  - other
+  - support
+  - website
+hosts:
+- host: api.ccxt.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: ccxt.com
+  role: api
+  relation: own
+- host: ccxt.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ccxt.com
+  role: other
+  relation: own
+- host: cdn.ccxt.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ccxt.com
+  role: other
+  relation: own
+- host: docs.ccxt.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  - Documentation
+  - CLI
+  - ChangeLog
+  serves:
+  - docs
+  registrable_domain: ccxt.com
+  role: website
+  relation: own
+- host: docs.rs
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: docs.rs
+  role: docs
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubRepository
+  - License
+  serves: []
+  registrable_domain: github.com
+  role: other
+  relation: platform
+- host: help.ccxt.com
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: ccxt.com
+  role: support
+  relation: own
+- host: pypi.org
+  found_by:
+  - pointer
+  types:
+  - SDK
+  serves: []
+  registrable_domain: pypi.org
+  role: other
+  relation: platform
+- host: www.npmjs.com
+  found_by:
+  - pointer
+  types:
+  - SDK
+  serves: []
+  registrable_domain: npmjs.com
+  role: other
+  relation: platform

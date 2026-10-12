@@ -1,0 +1,181 @@
+# Guide
+
+> Install, manual & reference
+
+- [CCXT Documentation](/docs): CCXT — a unified API for 100+ cryptocurrency and prediction-market exchanges in JavaScript, Python, PHP, C#, Go, Java and Rust.
+- [Install](/docs/install): > Just want an AI agent or your terminal to use CCXT? You may not need to install the library at all:
+- [Manual](/docs/manual): The ccxt library is a collection of available crypto exchanges or exchange classes. Each class implements the public and private API for a particular crypto…
+- [Prediction Markets](/docs/prediction)
+- [CCXT Pro Manual](/docs/pro-manual): CCXT Pro is a free part of CCXT that adds support for WebSocket streaming: https://github.com/ccxt/ccxt/issues/15171
+- [CCXT Pro](/docs/pro): CCXT supports WebSockets (Pro part) for many exchanges.
+- [CLI](/docs/cli): CCXT includes an example that allows calling all exchange methods and properties from command line. One doesn't even have to be a programmer or write code –…
+- [MCP Server](/docs/mcp): CCXT ships an official MCP (Model Context Protocol) server so AI agents — Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and any other MCP host —…
+- [Examples Overview](/docs/examples-overview): To run the ccxt examples from any folder type one of the following commands in console.
+- [FAQ](/docs/faq): If your question is formulated in a short manner like the above, we won't help. We don't teach programming. If you're unable to read and understand the…
+- [Requirements](/docs/requirements): The exchange is required to implement the following list of methods and structures in order to get integrated with CCXT.
+- [Contributing](/docs/contributing): Read the notes when opening a new issue on github and provide the requested details, so we can assist you better. You can also read the Troubleshooting section.
+
+- **Reference**
+- [API Spec by Method](/docs/base-spec): CCXT unified API specification — every method and the exchanges that implement it.
+- [Supported Exchanges](/docs/exchange-markets): All cryptocurrency and prediction-market exchanges supported by CCXT.
+- [Exchanges by Country](/docs/exchange-markets-by-country): CCXT-supported cryptocurrency and prediction-market exchanges grouped by country.
+- [AI Skills](/docs/ai-skills): CCXT provides skills for Claude Code, OpenCode, Codex, Gemini and other AI coding assistants — one per supported language, plus skills for the CCXT CLI and…
+- [Statistics](/docs/stats)
+- [Certification](/docs/certification): The structure of CCXT defines a good, portable and cross-compatible standard for exchanges' API interfaces, that is implemented in the CCXT Unified API.…
+- [Changelog](/docs/changelog): fix(rust): send every response through handleErrors and stop fetch swallowing errors by @mkzung in #30609
+
+# Guide
+
+> Install, manual & reference
+
+- [Documentación de CCXT](/es/docs): CCXT — una API unificada para más de 100 exchanges de criptomonedas en JavaScript, Python, PHP, C#, Go, Java y Rust.
+- [Instalación](/es/docs/install): La forma más fácil de instalar la biblioteca ccxt es usar los gestores de paquetes integrados:
+- [Manual](/es/docs/manual): La biblioteca ccxt es una colección de exchanges de criptomonedas disponibles o clases de exchange. Cada clase implementa la API pública y privada para un exchange de criptomonedas en particular…
+- [Prediction Markets](/docs/prediction)
+- [Manual de CCXT Pro](/es/docs/pro-manual): CCXT Pro es una parte gratuita de CCXT que añade soporte para streaming WebSocket: https://github.com/ccxt/ccxt/issues/15171
+- [CCXT Pro](/es/docs/pro): CCXT admite WebSockets (parte Pro) para muchos exchanges.
+- [CLI](/es/docs/cli): CCXT incluye un ejemplo que permite llamar a todos los métodos y propiedades del exchange desde la línea de comandos. Ni siquiera es necesario ser programador o escribir código –…
+- [MCP Server](/es/docs/mcp): CCXT ships an official MCP (Model Context Protocol) server so AI agents — Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and any other MCP host —…
+- [Descripción general de ejemplos](/es/docs/examples-overview): Para ejecutar los ejemplos de ccxt desde cualquier carpeta, escriba uno de los siguientes comandos en la consola.
+- [FAQ](/es/docs/faq): Si tu pregunta está formulada de forma tan breve como la anterior, no podremos ayudarte. No enseñamos programación. Si no puedes leer y comprender el…
+- [Requisitos](/es/docs/requirements): El exchange debe implementar la siguiente lista de métodos y estructuras para integrarse con CCXT.
+- [Contribuir](/es/docs/contributing): Lee las notas al abrir un nuevo issue en github y proporciona los detalles solicitados para que podamos ayudarte mejor. También puedes leer la sección de Solución de problemas.
+
+- **Reference**
+- [API Spec by Method](/es/docs/base-spec): CCXT unified API specification — every method and the exchanges that implement it.
+- [Supported Exchanges](/es/docs/exchange-markets): All cryptocurrency and prediction-market exchanges supported by CCXT.
+- [Exchanges by Country](/es/docs/exchange-markets-by-country): CCXT-supported cryptocurrency and prediction-market exchanges grouped by country.
+- [Habilidades de IA](/es/docs/ai-skills): CCXT proporciona habilidades específicas por lenguaje para los asistentes de IA Claude Code y OpenCode. Estas habilidades ayudan a los desarrolladores a aprender y usar CCXT rápidamente en sus proyectos…
+- [Estadísticas](/es/docs/stats)
+- [Certificación](/es/docs/certification): La estructura de CCXT define un estándar bueno, portable y compatible entre plataformas para las interfaces de API de los exchanges, que está implementado en la API Unificada de CCXT.…
+- [Changelog](/es/docs/changelog): fix(rust): send every response through handleErrors and stop fetch swallowing errors by @mkzung in #30609
+
+# Guide
+
+> Install, manual & reference
+
+- [Documentação CCXT](/pt/docs): CCXT — uma API unificada para mais de 100 exchanges de criptomoedas em JavaScript, Python, PHP, C#, Go, Java e Rust.
+- [Instalação](/pt/docs/install): A maneira mais fácil de instalar a biblioteca ccxt é usar os gerenciadores de pacotes integrados:
+- [Manual](/pt/docs/manual): A biblioteca ccxt é uma coleção de exchanges de criptomoedas disponíveis ou classes de exchanges. Cada classe implementa a API pública e privada de uma determinada exchange de criptomoedas…
+- [Prediction Markets](/docs/prediction)
+- [Manual do CCXT Pro](/pt/docs/pro-manual): CCXT Pro é uma parte gratuita do CCXT que adiciona suporte a streaming via WebSocket: https://github.com/ccxt/ccxt/issues/15171
+- [CCXT Pro](/pt/docs/pro): O CCXT suporta WebSockets (parte Pro) para muitas exchanges.
+- [CLI](/pt/docs/cli): O CCXT inclui um exemplo que permite chamar todos os métodos e propriedades de uma exchange pela linha de comando. Não é preciso nem ser programador ou escrever código –…
+- [MCP Server](/pt/docs/mcp): CCXT ships an official MCP (Model Context Protocol) server so AI agents — Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and any other MCP host —…
+- [Visão Geral de Exemplos](/pt/docs/examples-overview): Para executar os exemplos do ccxt de qualquer pasta, digite um dos seguintes comandos no console.
+- [FAQ](/pt/docs/faq): Se a sua pergunta for formulada de forma resumida como acima, não ajudaremos. Não ensinamos programação. Se não conseguir ler e entender o…
+- [Requisitos](/pt/docs/requirements): A exchange é obrigada a implementar a seguinte lista de métodos e estruturas para se integrar com o CCXT.
+- [Contribuindo](/pt/docs/contributing): Leia as notas ao abrir um novo issue no github e forneça os detalhes solicitados para que possamos ajudá-lo melhor. Você também pode ler a seção de Solução de Problemas.
+
+- **Reference**
+- [API Spec by Method](/pt/docs/base-spec): CCXT unified API specification — every method and the exchanges that implement it.
+- [Supported Exchanges](/pt/docs/exchange-markets): All cryptocurrency and prediction-market exchanges supported by CCXT.
+- [Exchanges by Country](/pt/docs/exchange-markets-by-country): CCXT-supported cryptocurrency and prediction-market exchanges grouped by country.
+- [Habilidades de IA](/pt/docs/ai-skills): O CCXT fornece habilidades específicas por linguagem para os assistentes de IA Claude Code e OpenCode. Essas habilidades ajudam os desenvolvedores a aprender e usar o CCXT rapidamente em seus projetos…
+- [Estatísticas](/pt/docs/stats)
+- [Certificação](/pt/docs/certification): A estrutura do CCXT define um padrão bom, portátil e compatível entre plataformas para interfaces de API de exchanges, que é implementado na API Unificada do CCXT.…
+- [Changelog](/pt/docs/changelog): fix(rust): send every response through handleErrors and stop fetch swallowing errors by @mkzung in #30609
+
+# Guide
+
+> Install, manual & reference
+
+- [CCXT 문서](/ko/docs): CCXT — JavaScript, Python, PHP, C#, Go, Java 및 Rust의 100개 이상 암호화폐 거래소를 위한 통합 API.
+- [설치](/ko/docs/install): ccxt 라이브러리를 설치하는 가장 쉬운 방법은 내장된 패키지 관리자를 사용하는 것입니다:
+- [매뉴얼](/ko/docs/manual): ccxt 라이브러리는 이용 가능한 암호화폐 거래소 또는 거래소 클래스의 모음입니다. 각 클래스는 특정 암호화폐 거래소의 공개 및 비공개 API를 구현합니다…
+- [Prediction Markets](/docs/prediction)
+- [CCXT Pro 매뉴얼](/ko/docs/pro-manual): CCXT Pro는 WebSocket 스트리밍 지원을 추가하는 CCXT의 무료 파트입니다: https://github.com/ccxt/ccxt/issues/15171
+- [CCXT Pro](/ko/docs/pro): CCXT는 많은 거래소에 대해 WebSockets(Pro 부분)을 지원합니다.
+- [CLI](/ko/docs/cli): CCXT에는 명령줄에서 모든 거래소 메서드와 속성을 호출할 수 있는 예제가 포함되어 있습니다. 프로그래머가 되거나 코드를 작성할 필요 없이 –…
+- [MCP Server](/ko/docs/mcp): CCXT ships an official MCP (Model Context Protocol) server so AI agents — Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and any other MCP host —…
+- [예제 개요](/ko/docs/examples-overview): 모든 폴더에서 ccxt 예제를 실행하려면 콘솔에서 다음 명령 중 하나를 입력하세요.
+- [FAQ](/ko/docs/faq): 위와 같이 짧은 형식으로 질문을 작성하시면 도움을 드리기 어렵습니다. 저희는 프로그래밍을 가르치지 않습니다. 매뉴얼을 읽고 이해하지 못하거나…
+- [요구사항](/ko/docs/requirements): 거래소는 CCXT와 통합하기 위해 다음 메서드와 구조 목록을 구현해야 합니다.
+- [기여하기](/ko/docs/contributing): GitHub에서 새 이슈를 열 때 안내 사항을 읽고 요청된 세부 정보를 제공해 주시면 더 잘 도와드릴 수 있습니다. 문제 해결 섹션도 읽어보실 수 있습니다.
+
+- **Reference**
+- [API Spec by Method](/ko/docs/base-spec): CCXT unified API specification — every method and the exchanges that implement it.
+- [Supported Exchanges](/ko/docs/exchange-markets): All cryptocurrency and prediction-market exchanges supported by CCXT.
+- [Exchanges by Country](/ko/docs/exchange-markets-by-country): CCXT-supported cryptocurrency and prediction-market exchanges grouped by country.
+- [AI 스킬](/ko/docs/ai-skills): CCXT는 Claude Code 및 OpenCode AI 어시스턴트를 위한 언어별 스킬을 제공합니다. 이 스킬들은 개발자가 포괄적인 가이드, 코드 예제, 완전한 API 레퍼런스를 통해 프로젝트에서 CCXT를 빠르게 배우고 사용할 수 있도록 도와줍니다…
+- [통계](/ko/docs/stats)
+- [인증](/ko/docs/certification): CCXT의 구조는 CCXT 통합 API에 구현된, 거래소 API 인터페이스를 위한 우수하고 이식 가능하며 교차 호환 가능한 표준을 정의합니다.…
+- [Changelog](/ko/docs/changelog): fix(rust): send every response through handleErrors and stop fetch swallowing errors by @mkzung in #30609
+
+# Guide
+
+> Install, manual & reference
+
+- [CCXT 文档](/zh/docs): CCXT — 一个统一的 API，支持 100+ 加密货币交易所，适用于 JavaScript、Python、PHP、C#、Go、Java 和 Rust。
+- [安装](/zh/docs/install): 安装 ccxt 库最简单的方法是使用内置的包管理器：
+- [手册](/zh/docs/manual): ccxt 库是一组可用的加密货币交易所或交易所类的集合。每个类实现了特定加密货币交易所的公共和私有 API……
+- [Prediction Markets](/docs/prediction)
+- [CCXT Pro 手册](/zh/docs/pro-manual): CCXT Pro 是 CCXT 的免费组成部分，增加了对 WebSocket 流式传输的支持：https://github.com/ccxt/ccxt/issues/15171
+- [CCXT Pro](/zh/docs/pro): CCXT支持许多交易所的WebSocket（Pro部分）。
+- [CLI](/zh/docs/cli): CCXT 包含一个示例，允许从命令行调用所有交易所方法和属性。即使不是程序员或编写代码，任何用户也可以使用它！
+- [MCP Server](/zh/docs/mcp): CCXT ships an official MCP (Model Context Protocol) server so AI agents — Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and any other MCP host —…
+- [示例概述](/zh/docs/examples-overview): 要从任何文件夹运行 ccxt 示例，请在控制台中输入以下命令之一。
+- [FAQ](/zh/docs/faq): 如果您的问题像上面那样简短，我们将不予协助。我们不负责教授编程基础。如果您无法阅读并理解…
+- [集成要求](/zh/docs/requirements): 为了与CCXT集成，交易所需要实现以下方法和结构列表。
+- [贡献指南](/zh/docs/contributing): 在 github 上提交新 Issue 时请阅读相关说明并提供所需详情，以便我们更好地为您提供帮助。您也可以阅读故障排查章节。
+
+- **Reference**
+- [API Spec by Method](/zh/docs/base-spec): CCXT unified API specification — every method and the exchanges that implement it.
+- [Supported Exchanges](/zh/docs/exchange-markets): All cryptocurrency and prediction-market exchanges supported by CCXT.
+- [Exchanges by Country](/zh/docs/exchange-markets-by-country): CCXT-supported cryptocurrency and prediction-market exchanges grouped by country.
+- [AI 技能](/zh/docs/ai-skills): CCXT 为 Claude Code 和 OpenCode AI 助手提供特定语言的技能包。这些技能帮助开发者通过全面的指南、代码示例和完整的 API 参考，快速学习并在项目中使用 CCXT……
+- [统计数据](/zh/docs/stats)
+- [认证](/zh/docs/certification): CCXT 的结构为交易所的 API 接口定义了一套良好、可移植且跨兼容的标准，该标准已在 CCXT 统一 API 中实现。…
+- [Changelog](/zh/docs/changelog): fix(rust): send every response through handleErrors and stop fetch swallowing errors by @mkzung in #30609
+
+# Guide
+
+> Install, manual & reference
+
+- [Documentation CCXT](/fr/docs): CCXT — une API unifiée pour plus de 100 exchanges de cryptomonnaies en JavaScript, Python, PHP, C#, Go, Java et Rust.
+- [Installation](/fr/docs/install): La façon la plus simple d'installer la bibliothèque ccxt est d'utiliser les gestionnaires de packages intégrés :
+- [Manuel](/fr/docs/manual): La bibliothèque ccxt est une collection de plateformes crypto disponibles ou de classes d'échange. Chaque classe implémente l'API publique et privée pour une plateforme crypto…
+- [Prediction Markets](/docs/prediction)
+- [Manuel CCXT Pro](/fr/docs/pro-manual): CCXT Pro est une partie gratuite de CCXT qui ajoute la prise en charge du streaming WebSocket : https://github.com/ccxt/ccxt/issues/15171
+- [CCXT Pro](/fr/docs/pro): CCXT prend en charge les WebSockets (partie Pro) pour de nombreux échanges.
+- [CLI](/fr/docs/cli): CCXT inclut un exemple qui permet d'appeler toutes les méthodes et propriétés de l'échange depuis la ligne de commande. On n'a même pas besoin d'être programmeur ou d'écrire du code –…
+- [MCP Server](/fr/docs/mcp): CCXT ships an official MCP (Model Context Protocol) server so AI agents — Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and any other MCP host —…
+- [Aperçu des Exemples](/fr/docs/examples-overview): Pour exécuter les exemples ccxt depuis n'importe quel dossier, tapez l'une des commandes suivantes dans la console.
+- [FAQ](/fr/docs/faq): Si votre question est formulée de manière aussi brève que ci-dessus, nous ne vous aiderons pas. Nous n'enseignons pas la programmation. Si vous n'êtes pas en mesure de lire et de comprendre le…
+- [Exigences](/fr/docs/requirements): L'échange doit implémenter la liste suivante de méthodes et de structures pour être intégré à CCXT.
+- [Contribuer](/fr/docs/contributing): Lisez les notes lors de l'ouverture d'un nouvel ticket sur github et fournissez les détails demandés, afin que nous puissions mieux vous aider. Vous pouvez également lire la section Dépannage.
+
+- **Reference**
+- [API Spec by Method](/fr/docs/base-spec): CCXT unified API specification — every method and the exchanges that implement it.
+- [Supported Exchanges](/fr/docs/exchange-markets): All cryptocurrency and prediction-market exchanges supported by CCXT.
+- [Exchanges by Country](/fr/docs/exchange-markets-by-country): CCXT-supported cryptocurrency and prediction-market exchanges grouped by country.
+- [Compétences IA](/fr/docs/ai-skills): CCXT fournit des compétences spécifiques à chaque langage pour les assistants IA Claude Code et OpenCode. Ces compétences aident les développeurs à apprendre rapidement et à utiliser CCXT dans leurs projets…
+- [Statistiques](/fr/docs/stats)
+- [Certification](/fr/docs/certification): La structure de CCXT définit un standard de qualité, portable et cross-compatible pour les interfaces API des exchanges, qui est implémenté dans l'API unifiée CCXT.…
+- [Changelog](/fr/docs/changelog): fix(rust): send every response through handleErrors and stop fetch swallowing errors by @mkzung in #30609
+
+# Guide
+
+> Install, manual & reference
+
+- [CCXT-Dokumentation](/de/docs): CCXT — eine einheitliche API für 100+ Kryptobörsen in JavaScript, Python, PHP, C#, Go, Java und Rust.
+- [Installation](/de/docs/install): Die einfachste Möglichkeit, die ccxt-Bibliothek zu installieren, ist die Verwendung integrierter Paketmanager:
+- [Handbuch](/de/docs/manual): Die ccxt-Bibliothek ist eine Sammlung verfügbarer Krypto-Börsen oder Börsenklassen. Jede Klasse implementiert die öffentliche und private API für eine bestimmte Krypto…
+- [Prediction Markets](/docs/prediction)
+- [CCXT Pro Handbuch](/de/docs/pro-manual): CCXT Pro ist ein kostenloser Teil von CCXT, der Unterstützung für WebSocket-Streaming hinzufügt: https://github.com/ccxt/ccxt/issues/15171
+- [CCXT Pro](/de/docs/pro): CCXT unterstützt WebSockets (Pro-Teil) für viele Börsen.
+- [CLI](/de/docs/cli): CCXT enthält ein Beispiel, das es ermöglicht, alle Exchange-Methoden und -Eigenschaften über die Befehlszeile aufzurufen. Man muss nicht einmal ein Programmierer sein oder Code schreiben –…
+- [MCP Server](/de/docs/mcp): CCXT ships an official MCP (Model Context Protocol) server so AI agents — Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and any other MCP host —…
+- [Beispiele - Übersicht](/de/docs/examples-overview): Um die CCXT-Beispiele aus einem beliebigen Ordner auszuführen, geben Sie einen der folgenden Befehle in der Konsole ein.
+- [FAQ](/de/docs/faq): Wenn Ihre Frage so kurz formuliert ist wie die obige, werden wir nicht helfen. Wir unterrichten kein Programmieren. Wenn Sie das…
+- [Anforderungen](/de/docs/requirements): Die Börse muss die folgende Liste von Methoden und Strukturen implementieren, um in CCXT integriert zu werden.
+- [Beitragen](/de/docs/contributing): Lesen Sie die Hinweise beim Öffnen eines neuen Issues auf GitHub und geben Sie die angeforderten Details an, damit wir Ihnen besser helfen können. Sie können auch den Abschnitt zur Fehlerbehebung lesen.
+
+- **Reference**
+- [API Spec by Method](/de/docs/base-spec): CCXT unified API specification — every method and the exchanges that implement it.
+- [Supported Exchanges](/de/docs/exchange-markets): All cryptocurrency and prediction-market exchanges supported by CCXT.
+- [Exchanges by Country](/de/docs/exchange-markets-by-country): CCXT-supported cryptocurrency and prediction-market exchanges grouped by country.
+- [KI-Skills](/de/docs/ai-skills): CCXT stellt sprachspezifische Skills für die KI-Assistenten Claude Code und OpenCode bereit. Diese Skills helfen Entwicklern, CCXT schnell in ihren Projekten zu erlernen und einzusetzen…
+- [Statistiken](/de/docs/stats)
+- [Zertifizierung](/de/docs/certification): Die Struktur von CCXT definiert einen guten, portablen und plattformübergreifend kompatiblen Standard für API-Schnittstellen von Börsen, der in der einheitlichen CCXT-API implementiert ist.…
+- [Changelog](/de/docs/changelog): fix(rust): send every response through handleErrors and stop fetch swallowing errors by @mkzung in #30609

@@ -1,23 +1,123 @@
 aid: ccxt
+
 name: CCXT
-description: 'CCXT is a company surfaced via the API Evangelist harvest backlog (source: market-gap) and
-  added to the network as a stub for full-pipeline profiling.'
+
+image: https://docs.ccxt.com/og/home
+
+description: 'CCXT is an open-source (MIT) cryptocurrency trading library that wraps the public and private
+  APIs of 100+ crypto exchanges and prediction markets behind one unified API, in JavaScript/TypeScript,
+  Python, PHP, C#, Go, Java and Rust (npm ccxt 4.5.85). It is a client library, not a hosted HTTP API:
+  there is no CCXT server endpoint and no OpenAPI. It also ships a local stdio MCP server (npm ccxt-mcp),
+  a CLI, and AI coding skills.'
+
 url: https://raw.githubusercontent.com/api-evangelist/ccxt/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:market-gap
+
 x-tier: stub
+
 x-tier-reason: harvest
+
 specificationVersion: '0.20'
+
 created: '2026-10-13'
+
 modified: '2026-10-13'
+
 tags:
 - Company
-apis: []
+- Cryptocurrency
+- Trading
+- Exchanges
+- Open Source
+- SDK
+- MCP
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: SecurityTxt
+  url: well-known/ccxt-help-security.txt
+- type: WellKnown
+  url: well-known/ccxt-well-known.yml
+- type: Hosts
+  url: hosts/ccxt-hosts.yml
+- type: SDKs
+  url: packages/ccxt-packages.yml
+- type: Packages
+  url: packages/ccxt-packages.yml
+- type: Support
+  url: https://help.ccxt.com/en/
+- type: GettingStarted
+  url: https://help.ccxt.com/en/collections/19730829-getting-started
+- type: DeveloperPortal
+  url: https://docs.ccxt.com/playground
+- type: DomainSecurity
+  url: security/ccxt-domain-security.yml
 - type: Website
+  url: https://docs.ccxt.com
+- type: Documentation
+  url: https://docs.ccxt.com/docs/manual
+- type: LLMsTxt
+  url: llms/ccxt-llms.txt
+- type: GitHubRepository
   url: https://github.com/ccxt/ccxt
+- type: License
+  url: https://github.com/ccxt/ccxt/blob/master/LICENSE.txt
+- type: SDK
+  name: npm ccxt
+  url: https://www.npmjs.com/package/ccxt
+- type: SDK
+  name: PyPI ccxt
+  url: https://pypi.org/project/ccxt/
+- type: CLI
+  url: https://docs.ccxt.com/docs/cli
+- type: ChangeLog
+  url: https://docs.ccxt.com/docs/changelog
+
+apis:
+- aid: ccxt:ccxt-unified-api
+  name: CCXT Unified API (library)
+  description: Unified in-process library API (fetchTicker, fetchOrderBook, createOrder, fetchBalance,
+    etc.) across 100+ exchanges. Not an HTTP service; exchange REST/WebSocket endpoints belong to each
+    exchange.
+  humanURL: https://docs.ccxt.com/docs/manual
+  tags:
+  - Cryptocurrency
+  - Trading
+  properties:
+  - type: Documentation
+    url: https://docs.ccxt.com/docs/manual
+- aid: ccxt:ccxt-mcp-server
+  name: CCXT MCP Server (local stdio)
+  description: Official MCP server run locally over stdio (npx -y ccxt-mcp); API keys stay on the user
+    machine. Nothing is hosted.
+  humanURL: https://docs.ccxt.com/docs/mcp
+  tags:
+  - MCP
+  properties:
+  - type: Documentation
+    url: https://docs.ccxt.com/docs/mcp
+  - type: SDK
+    name: npm ccxt-mcp
+    url: https://www.npmjs.com/package/ccxt-mcp
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-13'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://docs.ccxt.com
+    status: 200
+  - url: https://github.com/ccxt/ccxt
+    status: 200
