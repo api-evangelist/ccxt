@@ -25,6 +25,9 @@ reliance:
     cannot tell those apart
 checked:
 - 'docs-platform: no-docs-host'
+- help.ccxt.com (Support)
+- help.ccxt.com (GettingStarted)
+- docs.ccxt.com (DeveloperPortal)
 - docs.ccxt.com (Website)
 - docs.ccxt.com (Documentation)
 note: no vendor fingerprint on any host the record names; a hand-built surface, or hosts the pipeline has not yet found
